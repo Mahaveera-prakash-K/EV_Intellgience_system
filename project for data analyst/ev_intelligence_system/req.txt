@@ -1,0 +1,4 @@
+pandas # pandas is a py lib for data manipulation and analysis
+requests # requests is a py lib for making http requests
+openpyxl # openpyxl is a py lib for excel file
+python-dotenv
