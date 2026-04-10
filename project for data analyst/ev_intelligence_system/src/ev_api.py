@@ -6,7 +6,7 @@ def fetch_ev_data():
 
     print("Connecting to EV dataset API...")
 
-    response = requests.get(EV_API_URL)
+    response = requests.get(EV_API_URL, params={"$limit": 1000000})
 
     if response.status_code != 200:
         raise Exception("Failed to fetch data from API")
