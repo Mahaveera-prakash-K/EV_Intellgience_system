@@ -1,0 +1,4 @@
+.venv/
+project for data analyst/.venv/
+**/data/*.csv
+*.csv
