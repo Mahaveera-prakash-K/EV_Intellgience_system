@@ -1,4 +1,11 @@
 .venv/
 project for data analyst/.venv/
-**/data/*.csv
-*.csv
+__pycache__/
+*.pyc
+catboost_info/
+
+# Ignore only specific data folder (optional)
+data/*.csv
+
+# OR allow one file explicitly
+!youtube_comments.csv
